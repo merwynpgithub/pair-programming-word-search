@@ -41,7 +41,7 @@ const wordSearch = (letters, word) => {
 
     return false;
 }
-
+//please refer to the readme image for psuedocode
 const diagwordSearch = (letters, word) => {
     const diagonalJoin = [];
     let diagWordStrLen = letters.length + letters[0].length;
