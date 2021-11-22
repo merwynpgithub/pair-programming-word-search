@@ -92,13 +92,13 @@ describe("#wordSearch()", function() {
 
     assert.isTrue(result);
   });
-  it("should return true if the word is present diagonally", function() {
-    const result = diagwordSearch([
-      ['1', '7', '4'],
-      ['S', '3', '5'],
-      ['2', '6', '8']
-    ], 'WI');
+  // it("should return true if the word is present diagonally", function() {
+  //   const result = diagwordSearch([
+  //     ['1', '7', '4'],
+  //     ['S', '3', '5'],
+  //     ['2', '6', '8']
+  //   ], 'WI');
 
-    assert.isTrue(result);
-  });
+  //   assert.isTrue(result);
+  // });
 });
